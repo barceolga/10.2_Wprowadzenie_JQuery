@@ -1,0 +1,30 @@
+.special {
+  border-radius: 10%;
+  border: none;
+  background-color: silver;
+  color: navy;
+  font-size: 18px;
+  font-style: italic;
+  transition: 1s linear;
+  &:hover {
+    transform: scale(1.25);
+    background-color: navy;
+    color: silver;
+
+  }
+}
+
+.hello {
+  border-radius: 25%;
+  border: 1px solid red;
+  background-color: yellow;
+  color: orange;
+  font-size: 24px;
+  font-style: bold;
+  transition: 1s linear;
+  &:hover {
+    transform: rotate(360deg);
+    background-color: orange;
+    color: yellow;
+  }
+}
