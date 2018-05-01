@@ -29,6 +29,6 @@ button.each(function(index, element){
     $(element).addClass("hello");
   }
 });
-var heading1 = $('h1')
+var heading1 = $('h1');
 var heading2 = '<h2 class="text-capitalize">Enjoy your visit</h2>';
 $('h1').addClass('text-center').css('color', 'marron').append(heading2);
